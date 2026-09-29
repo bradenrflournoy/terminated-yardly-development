@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Yardly</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yardlyapp.Yardly</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSCameraUsageDescription</key>
+	<string>&quot;Yardly needs camera access for uploading job or profile photos.&quot;</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>&quot;Yardly needs access to your location even when the app is in the background.&quot;</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>&quot;Yardly uses location data to enable supervisor tracking and to find nearby services.&quot;</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>&quot;Yardly needs access to your photo library to choose pictures for your profile or jobs.&quot;
+</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+		<string>processing</string>
+		<string>location</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen.storyboard</string>
+</dict>
+</plist>

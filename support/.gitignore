@@ -1,0 +1,24 @@
+# Xcode user settings
+xcuserdata/
+
+# Build artifacts
+build/
+DerivedData/
+
+# Packages and Dependencies
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/xcode/xcuserdata/
+
+# macOS system files
+.DS_Store
+
+# Misc
+*.swp
+*.lock
+
+# Firebase config (contains project identifiers)
+GoogleService-Info.plist
+
+# Xcode user state
+*.xcuserstate
+xcschememanagement.plist
